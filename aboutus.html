@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Letilica</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="asset/image/letilica_remove.png" />
     <style>
         body {
             font-family: "Segoe UI", Arial, sans-serif;
@@ -105,6 +106,17 @@
             font-size: 14px;
         }
 
+        /* ================= ANIMATION ================= */
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
         /* ================= RESPONSIVE NAVBAR ================= */
         @media (max-width: 991px) {
             .navbar {
@@ -117,6 +129,7 @@
 
             .nav-link {
                 color: #fff !important;
+                text-align: center;
             }
         }
     </style>
@@ -133,10 +146,10 @@
 
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.php" style="color: #515451;">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.php" style="color: #515451;">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="service.php" style="color: #515451;">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.php" style="color: #515451;">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html" style="color: #515451;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html" style="color: #515451;">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="service.html" style="color: #515451;">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #515451;">Contact</a></li>
                 </ul>
             </div>
         </div>

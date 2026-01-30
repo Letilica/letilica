@@ -132,6 +132,25 @@
                 text-align: center;
             }
         }
+
+        /* ================= VIDEO RESPONSIVE ================= */
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 1200px; /* sesuai untuk TV besar */
+            margin: auto;
+            aspect-ratio: 16 / 9;
+            background: #000;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        }
+
+        .video-wrapper video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body>
@@ -147,8 +166,8 @@
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="aboutus.html" style="color: #515451;">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="service.php" style="color: #515451;">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.php" style="color: #515451;">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="service.html" style="color: #515451;">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #515451;">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -156,8 +175,8 @@
     <br>
     <section id="home" class="py-5" style="background-color: #A4ABA2;">
         <div class="container text-center">
-            <h1 class="display-4">Welcome to LETILICA</h1>
-            <p class="lead">Professional Technology & Solutions Company</p>
+            <!--<h1 class="display-4">Welcome to LETILICA</h1>-->
+            <!--<p class="lead">Professional Technology & Solutions Company</p>-->
             <div class="slider-container">
                 <div class="slider" id="slider">
                     <img src="asset/image/g1.jpeg" alt="Gambar3">

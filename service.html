@@ -1,18 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+    <title>Letilica</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="asset/image/letilica_remove.png" />
     <style>
         body {
             font-family: "Segoe UI", Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: 
-                linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
-                url("asset/image/dronradar.png");
+            background-image: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url("asset/image/dronradar.png");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -67,19 +66,19 @@
             animation: slide 40s linear infinite;
         }
 
-        .slider img {
-            width: 280px;
-            height: 200px;
-            object-fit: cover;
-            margin-right: 15px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            transition: transform 0.3s ease;
-        }
+            .slider img {
+                width: 280px;
+                height: 200px;
+                object-fit: cover;
+                margin-right: 15px;
+                border-radius: 10px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                transition: transform 0.3s ease;
+            }
 
-        .slider img:hover {
-            transform: scale(1.05);
-        }
+                .slider img:hover {
+                    transform: scale(1.05);
+                }
 
         /* ================= TEXT CONTENT ================= */
         h2 {
@@ -97,14 +96,25 @@
             border: none;
         }
 
-        .btn-primary:hover {
-            background-color: #475a48;
-        }
+            .btn-primary:hover {
+                background-color: #475a48;
+            }
 
         /* ================= FOOTER ================= */
         footer {
             background-color: #e6e9e4;
             font-size: 14px;
+        }
+
+        /* ================= ANIMATION ================= */
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
         }
 
         /* ================= RESPONSIVE NAVBAR ================= */
@@ -119,6 +129,7 @@
 
             .nav-link {
                 color: #fff !important;
+                text-align: center;
             }
         }
     </style>
@@ -130,16 +141,16 @@
             <a class="navbar-brand" href="#" style="color: #515451;">LETILICA Sdn Bhd</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-            <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.php" style="color: #515451;">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="aboutus.php" style="color: #515451;">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="service.php" style="color: #515451;">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.php" style="color: #515451;">Contact</a></li>
-            </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html" style="color: #515451;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html" style="color: #515451;">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="service.html" style="color: #515451;">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #515451;">Contact</a></li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -147,39 +158,39 @@
         <div class="container">
             <h2 class="text-center mb-4">Our Services</h2>
             <div class="row">
-				<div class="col-md-4">
-					<div class="card" style="background-color: #A4ABA2;">
-						<div class="card-body text-center">
-							<h5 class="card-title">Web Development</h5>
-							<p class="card-text">Professional website & system development.</p>
-						</div>
-					</div>
-				</div>
+                <div class="col-md-4">
+                    <div class="card" style="background-color: #A4ABA2;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Professional website & system development.</p>
+                        </div>
+                    </div>
+                </div>
 
-				<div class="col-md-4">
-					<div class="card" style="background-color: #A4ABA2;">
-					<div class="card-body text-center">
-						<h5 class="card-title">Networking</h5>
-						<p class="card-text">Network & server solutions.</p>
-					</div>
-					</div>
-				</div>
+                <div class="col-md-4">
+                    <div class="card" style="background-color: #A4ABA2;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Networking</h5>
+                            <p class="card-text">Network & server solutions.</p>
+                        </div>
+                    </div>
+                </div>
 
-				<div class="col-md-4">
-					<div class="card" style="background-color: #A4ABA2;">
-					<div class="card-body text-center">
-						<h5 class="card-title">IoT Solutions</h5>
-						<p class="card-text">ESP32, automation & smart systems.</p>
-					</div>
-					</div>
-				</div>
+                <div class="col-md-4">
+                    <div class="card" style="background-color: #A4ABA2;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">IoT Solutions</h5>
+                            <p class="card-text">ESP32, automation & smart systems.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <footer class="text-center py-3" style="color: #515451; background-color: #A4ABA2;">
         © 2026 Letilica. All Rights Reserved.
     </footer>
-<!-- Bootstrap Bundle (include Popper.js) -->
-<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Bundle (include Popper.js) -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
